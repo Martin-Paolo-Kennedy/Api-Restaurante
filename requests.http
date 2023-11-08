@@ -1,0 +1,25 @@
+GET http://localhost:3000/plato HTTP/1.1
+
+###
+GET http://localhost:3000/plato/1 HTTP/1.1
+
+###
+POST http://localhost:3000/plato HTTP/1.1
+Content-Type: application/json
+
+{
+  "nombre": "Ceviche",
+  "descripcion": "con leche de tigre",
+  "precio": 23.5
+}
+
+###
+PUT http://localhost:3000/plato/3 HTTP/1.1
+Content-Type: application/json
+
+{
+  "precio": 23.5
+}
+
+###
+DELETE http://localhost:3000/plato/3 HTTP/1.1
