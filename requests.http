@@ -1,4 +1,4 @@
-GET http://localhost:3000/plato HTTP/1.1
+GET http://localhost:3000/plato/lista HTTP/1.1
 
 ###
 GET http://localhost:3000/plato/1 HTTP/1.1
